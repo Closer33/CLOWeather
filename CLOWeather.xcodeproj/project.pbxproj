@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302117691FDA9B470094156A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117681FDA9B470094156A /* AppDelegate.swift */; };
+		3021176B1FDA9B470094156A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021176A1FDA9B470094156A /* ViewController.swift */; };
+		3021176E1FDA9B470094156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3021176C1FDA9B470094156A /* Main.storyboard */; };
+		302117701FDA9B470094156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3021176F1FDA9B470094156A /* Assets.xcassets */; };
+		302117731FDA9B470094156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302117711FDA9B470094156A /* LaunchScreen.storyboard */; };
+		3021177E1FDA9B470094156A /* CLOWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021177D1FDA9B470094156A /* CLOWeatherTests.swift */; };
+		302117891FDA9B470094156A /* CLOWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117881FDA9B470094156A /* CLOWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3021177A1FDA9B470094156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3021175D1FDA9B470094156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302117641FDA9B470094156A;
+			remoteInfo = CLOWeather;
+		};
+		302117851FDA9B470094156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3021175D1FDA9B470094156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302117641FDA9B470094156A;
+			remoteInfo = CLOWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302117651FDA9B470094156A /* CLOWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLOWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302117681FDA9B470094156A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3021176A1FDA9B470094156A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3021176D1FDA9B470094156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3021176F1FDA9B470094156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302117721FDA9B470094156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302117741FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302117791FDA9B470094156A /* CLOWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLOWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3021177D1FDA9B470094156A /* CLOWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOWeatherTests.swift; sourceTree = "<group>"; };
+		3021177F1FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302117841FDA9B470094156A /* CLOWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLOWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		302117881FDA9B470094156A /* CLOWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOWeatherUITests.swift; sourceTree = "<group>"; };
+		3021178A1FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302117621FDA9B470094156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117761FDA9B470094156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117811FDA9B470094156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3021175C1FDA9B470094156A = {
+			isa = PBXGroup;
+			children = (
+				302117671FDA9B470094156A /* CLOWeather */,
+				3021177C1FDA9B470094156A /* CLOWeatherTests */,
+				302117871FDA9B470094156A /* CLOWeatherUITests */,
+				302117661FDA9B470094156A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302117661FDA9B470094156A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302117651FDA9B470094156A /* CLOWeather.app */,
+				302117791FDA9B470094156A /* CLOWeatherTests.xctest */,
+				302117841FDA9B470094156A /* CLOWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302117671FDA9B470094156A /* CLOWeather */ = {
+			isa = PBXGroup;
+			children = (
+				302117681FDA9B470094156A /* AppDelegate.swift */,
+				3021176A1FDA9B470094156A /* ViewController.swift */,
+				3021176C1FDA9B470094156A /* Main.storyboard */,
+				3021176F1FDA9B470094156A /* Assets.xcassets */,
+				302117711FDA9B470094156A /* LaunchScreen.storyboard */,
+				302117741FDA9B470094156A /* Info.plist */,
+			);
+			path = CLOWeather;
+			sourceTree = "<group>";
+		};
+		3021177C1FDA9B470094156A /* CLOWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				3021177D1FDA9B470094156A /* CLOWeatherTests.swift */,
+				3021177F1FDA9B470094156A /* Info.plist */,
+			);
+			path = CLOWeatherTests;
+			sourceTree = "<group>";
+		};
+		302117871FDA9B470094156A /* CLOWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				302117881FDA9B470094156A /* CLOWeatherUITests.swift */,
+				3021178A1FDA9B470094156A /* Info.plist */,
+			);
+			path = CLOWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302117641FDA9B470094156A /* CLOWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3021178D1FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeather" */;
+			buildPhases = (
+				302117611FDA9B470094156A /* Sources */,
+				302117621FDA9B470094156A /* Frameworks */,
+				302117631FDA9B470094156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLOWeather;
+			productName = CLOWeather;
+			productReference = 302117651FDA9B470094156A /* CLOWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302117781FDA9B470094156A /* CLOWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302117901FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeatherTests" */;
+			buildPhases = (
+				302117751FDA9B470094156A /* Sources */,
+				302117761FDA9B470094156A /* Frameworks */,
+				302117771FDA9B470094156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3021177B1FDA9B470094156A /* PBXTargetDependency */,
+			);
+			name = CLOWeatherTests;
+			productName = CLOWeatherTests;
+			productReference = 302117791FDA9B470094156A /* CLOWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		302117831FDA9B470094156A /* CLOWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302117931FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeatherUITests" */;
+			buildPhases = (
+				302117801FDA9B470094156A /* Sources */,
+				302117811FDA9B470094156A /* Frameworks */,
+				302117821FDA9B470094156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302117861FDA9B470094156A /* PBXTargetDependency */,
+			);
+			name = CLOWeatherUITests;
+			productName = CLOWeatherUITests;
+			productReference = 302117841FDA9B470094156A /* CLOWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3021175D1FDA9B470094156A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Closer;
+				TargetAttributes = {
+					302117641FDA9B470094156A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					302117781FDA9B470094156A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 302117641FDA9B470094156A;
+					};
+					302117831FDA9B470094156A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 302117641FDA9B470094156A;
+					};
+				};
+			};
+			buildConfigurationList = 302117601FDA9B470094156A /* Build configuration list for PBXProject "CLOWeather" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3021175C1FDA9B470094156A;
+			productRefGroup = 302117661FDA9B470094156A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302117641FDA9B470094156A /* CLOWeather */,
+				302117781FDA9B470094156A /* CLOWeatherTests */,
+				302117831FDA9B470094156A /* CLOWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302117631FDA9B470094156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302117731FDA9B470094156A /* LaunchScreen.storyboard in Resources */,
+				302117701FDA9B470094156A /* Assets.xcassets in Resources */,
+				3021176E1FDA9B470094156A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117771FDA9B470094156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117821FDA9B470094156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302117611FDA9B470094156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3021176B1FDA9B470094156A /* ViewController.swift in Sources */,
+				302117691FDA9B470094156A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117751FDA9B470094156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3021177E1FDA9B470094156A /* CLOWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302117801FDA9B470094156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302117891FDA9B470094156A /* CLOWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3021177B1FDA9B470094156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302117641FDA9B470094156A /* CLOWeather */;
+			targetProxy = 3021177A1FDA9B470094156A /* PBXContainerItemProxy */;
+		};
+		302117861FDA9B470094156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302117641FDA9B470094156A /* CLOWeather */;
+			targetProxy = 302117851FDA9B470094156A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3021176C1FDA9B470094156A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3021176D1FDA9B470094156A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		302117711FDA9B470094156A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302117721FDA9B470094156A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3021178B1FDA9B470094156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3021178C1FDA9B470094156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3021178E1FDA9B470094156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3021178F1FDA9B470094156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		302117911FDA9B470094156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLOWeather.app/CLOWeather";
+			};
+			name = Debug;
+		};
+		302117921FDA9B470094156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLOWeather.app/CLOWeather";
+			};
+			name = Release;
+		};
+		302117941FDA9B470094156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLOWeather;
+			};
+			name = Debug;
+		};
+		302117951FDA9B470094156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLOWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLOWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302117601FDA9B470094156A /* Build configuration list for PBXProject "CLOWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3021178B1FDA9B470094156A /* Debug */,
+				3021178C1FDA9B470094156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3021178D1FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3021178E1FDA9B470094156A /* Debug */,
+				3021178F1FDA9B470094156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302117901FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302117911FDA9B470094156A /* Debug */,
+				302117921FDA9B470094156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302117931FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302117941FDA9B470094156A /* Debug */,
+				302117951FDA9B470094156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3021175D1FDA9B470094156A /* Project object */;
+}
