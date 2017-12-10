@@ -1,0 +1,6 @@
+framework module Pods_CLOWeather {
+  umbrella header "Pods-CLOWeather-umbrella.h"
+
+  export *
+  module * { export * }
+}

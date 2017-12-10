@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		302117691FDA9B470094156A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117681FDA9B470094156A /* AppDelegate.swift */; };
-		3021176B1FDA9B470094156A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021176A1FDA9B470094156A /* ViewController.swift */; };
 		3021176E1FDA9B470094156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3021176C1FDA9B470094156A /* Main.storyboard */; };
 		302117701FDA9B470094156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3021176F1FDA9B470094156A /* Assets.xcassets */; };
-		302117731FDA9B470094156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302117711FDA9B470094156A /* LaunchScreen.storyboard */; };
-		3021177E1FDA9B470094156A /* CLOWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021177D1FDA9B470094156A /* CLOWeatherTests.swift */; };
-		302117891FDA9B470094156A /* CLOWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117881FDA9B470094156A /* CLOWeatherUITests.swift */; };
+		302117B81FDAA7DC0094156A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302117B71FDAA7DC0094156A /* Launch Screen.storyboard */; };
+		302117BA1FDAA9A40094156A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117B91FDAA9A40094156A /* HomeViewController.swift */; };
+		302117BD1FDAF0140094156A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117BB1FDAF0140094156A /* HomeTableViewCell.swift */; };
+		302117BE1FDAF0140094156A /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302117BC1FDAF0140094156A /* HomeTableViewCell.xib */; };
+		302117C21FDAF9190094156A /* HomeTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117C11FDAF9190094156A /* HomeTableFooterView.swift */; };
+		302117C41FDAFEC90094156A /* HomeTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302117C31FDAFEC90094156A /* HomeTableFooterView.xib */; };
+		302117C71FDBA1700094156A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302117C61FDBA16F0094156A /* UIColor-Extension.swift */; };
+		308995111FDBBC83003E5204 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308995101FDBBC83003E5204 /* SearchViewController.swift */; };
+		308995161FDBDCB0003E5204 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 308995151FDBDCB0003E5204 /* city.plist */; };
+		308995191FDBED74003E5204 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308995181FDBED73003E5204 /* NetworkTools.swift */; };
+		3089951B1FDBF507003E5204 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089951A1FDBF507003E5204 /* ListModel.swift */; };
+		3089951D1FDBF7A7003E5204 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089951C1FDBF7A7003E5204 /* ForecastModel.swift */; };
+		308995201FDC3457003E5204 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089951E1FDC3457003E5204 /* DetailViewController.swift */; };
+		308995211FDC3457003E5204 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3089951F1FDC3457003E5204 /* DetailViewController.xib */; };
+		30DC13A91FDD079D00BBA166 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC13A71FDD079D00BBA166 /* DetailCollectionViewCell.swift */; };
+		30DC13AA1FDD079D00BBA166 /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DC13A81FDD079D00BBA166 /* DetailCollectionViewCell.xib */; };
+		550303FC42D9468E84EC8ADA /* Pods_CLOWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7CED0B93C79B616B4E6EE1 /* Pods_CLOWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +47,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2789B8DE0FFF6F62BBE3F863 /* Pods-CLOWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLOWeather/Pods-CLOWeather.release.xcconfig"; sourceTree = "<group>"; };
 		302117651FDA9B470094156A /* CLOWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLOWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		302117681FDA9B470094156A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3021176A1FDA9B470094156A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3021176D1FDA9B470094156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3021176F1FDA9B470094156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		302117721FDA9B470094156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302117741FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302117791FDA9B470094156A /* CLOWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLOWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3021177D1FDA9B470094156A /* CLOWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOWeatherTests.swift; sourceTree = "<group>"; };
-		3021177F1FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302117841FDA9B470094156A /* CLOWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLOWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		302117881FDA9B470094156A /* CLOWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOWeatherUITests.swift; sourceTree = "<group>"; };
-		3021178A1FDA9B470094156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302117B71FDAA7DC0094156A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		302117B91FDAA9A40094156A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		302117BB1FDAF0140094156A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		302117BC1FDAF0140094156A /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		302117C11FDAF9190094156A /* HomeTableFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableFooterView.swift; sourceTree = "<group>"; };
+		302117C31FDAFEC90094156A /* HomeTableFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableFooterView.xib; sourceTree = "<group>"; };
+		302117C61FDBA16F0094156A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		308995101FDBBC83003E5204 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		308995151FDBDCB0003E5204 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		308995181FDBED73003E5204 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		3089951A1FDBF507003E5204 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		3089951C1FDBF7A7003E5204 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		3089951E1FDC3457003E5204 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3089951F1FDC3457003E5204 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		30DC13A71FDD079D00BBA166 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		30DC13A81FDD079D00BBA166 /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		729ADEB55F2DC6B67FED33C4 /* Pods-CLOWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLOWeather/Pods-CLOWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7CED0B93C79B616B4E6EE1 /* Pods_CLOWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLOWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550303FC42D9468E84EC8ADA /* Pods_CLOWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				302117671FDA9B470094156A /* CLOWeather */,
-				3021177C1FDA9B470094156A /* CLOWeatherTests */,
-				302117871FDA9B470094156A /* CLOWeatherUITests */,
 				302117661FDA9B470094156A /* Products */,
+				652ECF580F0AD995D5544076 /* Pods */,
+				FA8975316A66A3B842FB9963 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,31 +125,156 @@
 			isa = PBXGroup;
 			children = (
 				302117681FDA9B470094156A /* AppDelegate.swift */,
-				3021176A1FDA9B470094156A /* ViewController.swift */,
+				302117961FDAA5C70094156A /* Classes */,
 				3021176C1FDA9B470094156A /* Main.storyboard */,
 				3021176F1FDA9B470094156A /* Assets.xcassets */,
-				302117711FDA9B470094156A /* LaunchScreen.storyboard */,
+				302117B71FDAA7DC0094156A /* Launch Screen.storyboard */,
 				302117741FDA9B470094156A /* Info.plist */,
 			);
 			path = CLOWeather;
 			sourceTree = "<group>";
 		};
-		3021177C1FDA9B470094156A /* CLOWeatherTests */ = {
+		302117961FDAA5C70094156A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3021177D1FDA9B470094156A /* CLOWeatherTests.swift */,
-				3021177F1FDA9B470094156A /* Info.plist */,
+				302117B21FDAA73A0094156A /* Model */,
+				302117AC1FDAA73A0094156A /* View */,
+				302117AF1FDAA73A0094156A /* Controller */,
+				302117AB1FDAA73A0094156A /* Libs */,
+				308995121FDBD81B003E5204 /* Resource */,
 			);
-			path = CLOWeatherTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		302117871FDA9B470094156A /* CLOWeatherUITests */ = {
+		302117AB1FDAA73A0094156A /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				302117881FDA9B470094156A /* CLOWeatherUITests.swift */,
-				3021178A1FDA9B470094156A /* Info.plist */,
+				308995171FDBECAC003E5204 /* Tools */,
+				302117C51FDBA1330094156A /* Categories */,
 			);
-			path = CLOWeatherUITests;
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		302117AC1FDAA73A0094156A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				302117AD1FDAA73A0094156A /* Home */,
+				302117AE1FDAA73A0094156A /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		302117AD1FDAA73A0094156A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302117BB1FDAF0140094156A /* HomeTableViewCell.swift */,
+				302117BC1FDAF0140094156A /* HomeTableViewCell.xib */,
+				302117C11FDAF9190094156A /* HomeTableFooterView.swift */,
+				302117C31FDAFEC90094156A /* HomeTableFooterView.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302117AE1FDAA73A0094156A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				30DC13A71FDD079D00BBA166 /* DetailCollectionViewCell.swift */,
+				30DC13A81FDD079D00BBA166 /* DetailCollectionViewCell.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		302117AF1FDAA73A0094156A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				302117B01FDAA73A0094156A /* Home */,
+				302117B11FDAA73A0094156A /* Detail */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		302117B01FDAA73A0094156A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302117B91FDAA9A40094156A /* HomeViewController.swift */,
+				308995101FDBBC83003E5204 /* SearchViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302117B11FDAA73A0094156A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3089951E1FDC3457003E5204 /* DetailViewController.swift */,
+				3089951F1FDC3457003E5204 /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		302117B21FDAA73A0094156A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				302117B31FDAA73A0094156A /* Home */,
+				302117B41FDAA73A0094156A /* Detail */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		302117B31FDAA73A0094156A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3089951A1FDBF507003E5204 /* ListModel.swift */,
+				3089951C1FDBF7A7003E5204 /* ForecastModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302117B41FDAA73A0094156A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		302117C51FDBA1330094156A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				302117C61FDBA16F0094156A /* UIColor-Extension.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		308995121FDBD81B003E5204 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				308995151FDBDCB0003E5204 /* city.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		308995171FDBECAC003E5204 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				308995181FDBED73003E5204 /* NetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		652ECF580F0AD995D5544076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				729ADEB55F2DC6B67FED33C4 /* Pods-CLOWeather.debug.xcconfig */,
+				2789B8DE0FFF6F62BBE3F863 /* Pods-CLOWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA8975316A66A3B842FB9963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B7CED0B93C79B616B4E6EE1 /* Pods_CLOWeather.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3021178D1FDA9B470094156A /* Build configuration list for PBXNativeTarget "CLOWeather" */;
 			buildPhases = (
+				2AD965C75BF73E7D9B36850A /* [CP] Check Pods Manifest.lock */,
 				302117611FDA9B470094156A /* Sources */,
 				302117621FDA9B470094156A /* Frameworks */,
 				302117631FDA9B470094156A /* Resources */,
+				D0DA160F04A36568812E63A3 /* [CP] Embed Pods Frameworks */,
+				D27528F03ABA373CBEE3831E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +387,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302117731FDA9B470094156A /* LaunchScreen.storyboard in Resources */,
+				302117B81FDAA7DC0094156A /* Launch Screen.storyboard in Resources */,
+				302117BE1FDAF0140094156A /* HomeTableViewCell.xib in Resources */,
+				308995211FDC3457003E5204 /* DetailViewController.xib in Resources */,
 				302117701FDA9B470094156A /* Assets.xcassets in Resources */,
+				308995161FDBDCB0003E5204 /* city.plist in Resources */,
 				3021176E1FDA9B470094156A /* Main.storyboard in Resources */,
+				302117C41FDAFEC90094156A /* HomeTableFooterView.xib in Resources */,
+				30DC13AA1FDD079D00BBA166 /* DetailCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +414,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AD965C75BF73E7D9B36850A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLOWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DA160F04A36568812E63A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLOWeather/Pods-CLOWeather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLOWeather/Pods-CLOWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27528F03ABA373CBEE3831E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLOWeather/Pods-CLOWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		302117611FDA9B470094156A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3021176B1FDA9B470094156A /* ViewController.swift in Sources */,
+				30DC13A91FDD079D00BBA166 /* DetailCollectionViewCell.swift in Sources */,
+				308995191FDBED74003E5204 /* NetworkTools.swift in Sources */,
+				308995111FDBBC83003E5204 /* SearchViewController.swift in Sources */,
 				302117691FDA9B470094156A /* AppDelegate.swift in Sources */,
+				302117C71FDBA1700094156A /* UIColor-Extension.swift in Sources */,
+				3089951D1FDBF7A7003E5204 /* ForecastModel.swift in Sources */,
+				302117BA1FDAA9A40094156A /* HomeViewController.swift in Sources */,
+				302117BD1FDAF0140094156A /* HomeTableViewCell.swift in Sources */,
+				308995201FDC3457003E5204 /* DetailViewController.swift in Sources */,
+				302117C21FDAF9190094156A /* HomeTableFooterView.swift in Sources */,
+				3089951B1FDBF507003E5204 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3021177E1FDA9B470094156A /* CLOWeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302117891FDA9B470094156A /* CLOWeatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +523,6 @@
 				3021176D1FDA9B470094156A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		302117711FDA9B470094156A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				302117721FDA9B470094156A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +627,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,10 +637,13 @@
 		};
 		3021178E1FDA9B470094156A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729ADEB55F2DC6B67FED33C4 /* Pods-CLOWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWB8K4P328;
 				INFOPLIST_FILE = CLOWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +654,13 @@
 		};
 		3021178F1FDA9B470094156A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2789B8DE0FFF6F62BBE3F863 /* Pods-CLOWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWB8K4P328;
 				INFOPLIST_FILE = CLOWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTU1024Studio.CLOWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";

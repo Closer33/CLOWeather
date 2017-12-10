@@ -1,24 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LPV-6a-Cg7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home View Controller-->
+        <scene sceneID="PwE-cu-fCS">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="LPV-6a-Cg7" customClass="HomeViewController" customModule="CLOWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uZO-l6-u5H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="buv-rO-cHx" userLabel="bgImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDg-hE-vYk" userLabel="maskView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fel-wv-Pgi" firstAttribute="bottom" secondItem="pDg-hE-vYk" secondAttribute="bottom" id="351-Wh-bdZ"/>
+                            <constraint firstItem="fel-wv-Pgi" firstAttribute="trailing" secondItem="pDg-hE-vYk" secondAttribute="trailing" id="K31-DH-EPg"/>
+                            <constraint firstItem="buv-rO-cHx" firstAttribute="leading" secondItem="fel-wv-Pgi" secondAttribute="leading" id="RvG-wo-ucN"/>
+                            <constraint firstItem="fel-wv-Pgi" firstAttribute="trailing" secondItem="buv-rO-cHx" secondAttribute="trailing" id="aaf-c4-gKx"/>
+                            <constraint firstItem="buv-rO-cHx" firstAttribute="top" secondItem="uZO-l6-u5H" secondAttribute="top" id="lGk-m8-DAv"/>
+                            <constraint firstItem="fel-wv-Pgi" firstAttribute="bottom" secondItem="buv-rO-cHx" secondAttribute="bottom" id="lSU-kV-uBg"/>
+                            <constraint firstItem="pDg-hE-vYk" firstAttribute="top" secondItem="uZO-l6-u5H" secondAttribute="top" id="oj3-fG-ZdQ"/>
+                            <constraint firstItem="pDg-hE-vYk" firstAttribute="leading" secondItem="fel-wv-Pgi" secondAttribute="leading" id="uRJ-NR-fUr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fel-wv-Pgi"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ViT-Ab-gHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-6" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="273" height="512"/>
+    </resources>
 </document>

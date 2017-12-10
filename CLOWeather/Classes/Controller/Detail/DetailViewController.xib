@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="CLOWeather" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomView" destination="Q7J-rW-xxa" id="3qk-To-Cof"/>
+                <outlet property="pageControl" destination="JQl-O3-LCp" id="rz7-9z-Q2s"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7J-rW-xxa">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <subviews>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-O3-LCp">
+                            <rect key="frame" x="140.5" y="4" width="39" height="37"/>
+                        </pageControl>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJh-oC-ZCG">
+                            <rect key="frame" x="284" y="7" width="31" height="30"/>
+                            <state key="normal" title="更多">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="gpx-cY-B9J"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="cJh-oC-ZCG" secondAttribute="trailing" constant="5" id="2dJ-ba-aXg"/>
+                        <constraint firstItem="cJh-oC-ZCG" firstAttribute="centerY" secondItem="Q7J-rW-xxa" secondAttribute="centerY" id="7mI-Xc-tgJ"/>
+                        <constraint firstItem="JQl-O3-LCp" firstAttribute="centerX" secondItem="Q7J-rW-xxa" secondAttribute="centerX" id="JqC-Nv-n8i"/>
+                        <constraint firstItem="JQl-O3-LCp" firstAttribute="centerY" secondItem="Q7J-rW-xxa" secondAttribute="centerY" id="aEX-6N-xQV"/>
+                        <constraint firstAttribute="height" constant="44" id="ruE-2K-erN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q7J-rW-xxa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9Vb-br-Wzf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Q7J-rW-xxa" secondAttribute="trailing" id="Bd7-hb-TZy"/>
+                <constraint firstItem="Q7J-rW-xxa" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="CTg-D6-ZHn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="11" y="97"/>
+        </view>
+    </objects>
+</document>
