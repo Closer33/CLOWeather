@@ -5,6 +5,6 @@
 
 ![](https://github.com/yinquan123/CLOWeather/blob/master/CLOWeather/Classes/Resource/02.png)
 
-![](https://github.com/yinquan123/CLOWeather/blob/master/CLOWeather/Classes/Resource/02.png)
+![](https://github.com/yinquan123/CLOWeather/blob/master/CLOWeather/Classes/Resource/03.png)
 
 
